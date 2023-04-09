@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    background-image: url(images/chocolat5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    box-shadow: 3px 3px 5px #000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+div h1{
+    color: orangered;
+}
+
+select{
+    font-size: 1.3rem;
+    padding: 3px 20px;
+    border-radius: 50px;
+    border: 2px solid orangered;
+    outline: none;
+    background: none;
+}
+input[type="submit"] {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #000;
+    outline: none;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover{
+    background-color: orange;
+    color: #000;
+    transform: translate(-7px);
+   
+}
+
+img {
+    width: 50%;
+}
+/* ********************************************* traitement *************************************** */

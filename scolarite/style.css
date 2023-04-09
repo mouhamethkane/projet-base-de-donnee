@@ -1,0 +1,139 @@
+body{
+    margin: 30px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+}
+table{
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    border: 5px solid #000;
+    font-size: 25px;
+}
+.affichage td img{
+    width: 90px;
+    height: 70px;
+}
+.affichage td a{
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.affichage td a:hover{
+    color: #000;
+}
+.affichage p a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.affichage p a:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* **************************************************** affichage ********************* */
+.editer {
+    margin: 30px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+}
+.editer form img{
+    width: 150px;
+    height: 150px;
+}
+.editer form tr td input{
+    width: 80%;
+    height: 50px;
+   
+}
+.editer form tr td input[type=submit]{
+    border: 4px solid #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.editer form tr td input[type=submit]:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* ************************************ editer ******************************** */
+.saisir{
+    margin: 30px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;  
+}
+.saisir form tr td input{
+    width: 80%;
+    height: 50px; 
+}
+.saisir form tr td input[type=submit]{
+    border: 4px solid #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.saisir form tr td input[type=submit]:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* ********************************** saisir ***************************** */
+.ajouter{
+    margin: 30px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;  
+}
+.ajouter form tr td input{
+    width: 40%;
+    height: 20px; 
+}
+.ajouter p a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ajouter p a:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* ********************************** ajouter ****************************** */
+table{
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    border: 5px solid #000;
+    font-size: 25px;
+}
+.rechercher td img{
+    width: 90px;
+    height: 70px;
+}
+.rechercher td a{
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rechercher td a:hover{
+    color: #000;
+}
+.rechercher p a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.rechercher p a:hover{
+    background-color: #fff;
+    color: #000;
+}
